@@ -1,0 +1,31 @@
+We will see some simple how to use SQL to perfome some simple operations.
+
+we should use the database that we create before called mydb.
+
+  
+```sh
+psql mydb
+```
+
+# Create a Table
+
+To create a table we can use the next code, don't worry if after the fist "(" psql will recognize that the command it's no terminated until the semicolon
+
+```sh
+`CREATE TABLE weather (
+city varchar(80),
+temp_lo int, -- low temperature
+temp_hi int, -- high temperature
+prcp real, -- precipitation
+date date
+);
+```
+
+As you can notice we use "--" when we can to comment some par of the code, remember that a comment is not run, it just indicate something in the code for others developers.
+
+In the table below you can see the data types.
+ 
+|Data type|Command|Example|
+|-|-|-|
+|Integer | int | 1,2,3,4,5...etc|
+|varc
