@@ -1,8 +1,8 @@
 To create a database you should write on the bash.
 
-´´´sh
+```sh
 createdb mydb
-´´´
+```
 
 Where **create** is the command and **mydb** is the name of our database.
 
