@@ -1,6 +1,6 @@
 To create a database you should write on the bash.
 
-´´´
+´´´sh
 createdb mydb
 ´´´
 
