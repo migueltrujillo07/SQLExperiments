@@ -23,6 +23,19 @@ date date
 
 As you can notice we use "--" when we can to comment some par of the code, remember that a comment is not run, it just indicate something in the code for others developers.
 
+Let's create another table called teachers, this example is taken from the book Practical SQL.
+
+```sh
+CREATE TABLE teachers(
+id bigserial,
+first_name varchar(25),
+last_name varchar(50),
+school varchar(50),
+hire_date date,
+salar numeric
+);
+```
+
 In the table below you can see the data types.
  
 |Data type|Command|Example|
