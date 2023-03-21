@@ -36,9 +36,8 @@ salar numeric
 );
 ```
 
-In the table below you can see the data types.
- 
-|Data type|Command|Example|
-|-|-|-|
-|Integer | int | 1,2,3,4,5...etc|
-|Text| varchar (the maximum leght of the text)| 20, 25, 50, etct|
+The sintax of PostgreSQL allows you to use your own psychedelic style of Uppercase, lowecase, and random indentations.
+However this is not the best when we are working with other, for that we're gonna use the next conventions.
+
+- Uppercase SQL keywords, such as SELEC. Some SQL coders also uppercase the name of data types, such as TEXT and INTEGER.
+- Avoid camel case and instead use lowercase_and_underscore for object names, such as tables and column names.
