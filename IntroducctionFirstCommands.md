@@ -41,3 +41,6 @@ However this is not the best when we are working with other, for that we're gonn
 
 - Uppercase SQL keywords, such as SELEC. Some SQL coders also uppercase the name of data types, such as TEXT and INTEGER.
 - Avoid camel case and instead use lowercase_and_underscore for object names, such as tables and column names.
+- Indent clauses and code blocks for readablity using either two or four spaces. Some coders prefer tabs to spaces.
+
+There area others rules but as we learn more we will see them.
