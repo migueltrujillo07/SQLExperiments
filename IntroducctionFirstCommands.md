@@ -12,7 +12,7 @@ psql mydb
 To create a table we can use the next code, don't worry if after the fist "(" psql will recognize that the command it's no terminated until the semicolon
 
 ```sh
-`CREATE TABLE weather (
+CREATE TABLE weather (
 city varchar(80),
 temp_lo int, -- low temperature
 temp_hi int, -- high temperature
